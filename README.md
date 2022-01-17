@@ -2,11 +2,11 @@
 Simple Face Recognition algorithm using Python and OpenCV
 
 # Requirement
-Python 3.8>
-pip install opencv-contrib-python
-dlib library
-cmake
-kivy
+Python 3.8>,
+pip install opencv-contrib-python,
+dlib library,
+cmake,
+kivy,
 
 # Outline
 This project consist of 2 parts, which are:
