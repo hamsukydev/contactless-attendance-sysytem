@@ -35,7 +35,7 @@ ScreenManager:
     
     MDLabel:
         id : label
-        text: " CONTACTLESS "
+        text: " FACIAL "
         font_style: "H2"
         halign: "left"
         pos_hint: {'center_y':0.75}
@@ -44,7 +44,7 @@ ScreenManager:
         
     MDLabel:
         id : label
-        text: " Attendance System"
+        text: " Recognition System"
         font_style: "H2"
         halign: "left"
         pos_hint: {'center_y':0.65}
@@ -52,7 +52,7 @@ ScreenManager:
         text_color: 1,1,1,1
     MDLabel:
         id : label
-        text: "                               Develop: TEAM-HAMSUKY"
+        text: "                               Develop: TEAM-FIT"
         font_style: "Button"
         halign: "left"
         pos_hint: {'center_y':0.156}
@@ -76,7 +76,7 @@ ScreenManager:
                 orientation: "vertical"
                 
                 MDToolbar:
-                    title: "Attendance Management System"
+                    title: "facial Management System"
                     md_bg_color: [35/255,59/255,48/255,1]
                     elevation: 10
                     pos_hint: {"top": 1}
@@ -206,7 +206,7 @@ ScreenManager:
                 orientation: "vertical"
                 
                 MDToolbar:
-                    title: "Attendance Management System"
+                    title: "Facial Management System"
                     md_bg_color: [35/255,59/255,48/255,1]
                     elevation: 10
                     pos_hint: {"top": 1}
@@ -296,7 +296,7 @@ ScreenManager:
                 orientation: "vertical"
                 
                 MDToolbar:
-                    title: "Attendance Management System"
+                    title: "Facial Management System"
                     md_bg_color: [35/255,59/255,48/255,1]
                     elevation: 10
                     pos_hint: {"top": 1}
@@ -463,7 +463,7 @@ ScreenManager:
             Screen:
                 orientation: "vertical"    
                 MDToolbar:
-                    title: "Attendance Management System"
+                    title: "Facial Management System"
                     md_bg_color: [35/255,59/255,48/255,1]
                     elevation: 10
                     pos_hint: {"top": 1}
@@ -481,7 +481,7 @@ db = DataBase("users.txt")
 
 class MainApp(MDApp):
     def __init__(self, **kwargs):
-        self.title = "Attendance Management System"
+        self.title = "Facial Management System"
         self.theme_cls = ThemeManager()
         self.theme_cls.primary_palette = "Cyan"
         self.theme_cls.accent_palette = "Blue"
